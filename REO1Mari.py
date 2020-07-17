@@ -257,10 +257,10 @@ for i in np.arange(0, nl, 1):
         print('Na linha ' + str(i+1) +
               ' e coluna ' + str(j+1) +
               ' ocorre o valor: ' + str(matriz[int(i), int(j)]))
-        matriz_pesomaior_25 = (matriz[:, 2] >= 25)
+        matriz_nova = (matriz[:, 2] >= 25)
         matriz_25 = (matriz[matriz_nova])
 print('----------------------------------------------------------------------------------------------------')
-print('Os genótipos ' + str(matriz_25[:, 0]) + ' apresentam peso de 100 grãos maior ou igual a 25')
+print('Os genótipos, ' + str(matriz_25[:, 0]) + ' apresentam peso de 100 grãos maior ou igual a 25')
 print('-----------------------------------------------------------------------------------------------------------------')
 
 
